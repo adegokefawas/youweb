@@ -183,7 +183,8 @@ body {
     color: #FFE01B;
 }
 .adcol-right{
-    
+    position: relative;
+    top: 13px;
 }
 .ad-section{
     display: flex;
