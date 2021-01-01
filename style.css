@@ -185,6 +185,32 @@ body {
 .adcol-right{
     
 }
+.ad-section{
+    display: flex;
+    flex-direction:column;
+    padding: 30px;
+    padding-top: 50px;
+}
+.ad-section h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 750;
+}
+.ad-section h2,
+.ad-section p{
+    font-family: Avenir LT Std;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.ad-section p{
+    font-weight: 350;
+}
+.ad-section p span{
+    display: block;
+    padding-top: 30px;
+}
+
 .adform{
     display: flex;
     flex-direction:column;
