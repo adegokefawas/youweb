@@ -37,6 +37,9 @@ body {
 .regcol-left h2 span{
     color: #FFE01B;
 }
+.regcol-right{
+    
+}
 .regform{
     display: flex;
     flex-direction:column;
