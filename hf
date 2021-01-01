@@ -1,0 +1,42 @@
+index-header {
+    background-image: url(images/bg-desktop.png);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo {
+    cursor: pointer;
+	
+}
+.nav-list{
+    list-style: none;
+}
+.nav-list li{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+/* Sign In Page*/
+.signin-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    padding: 0 30px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.signin .col-left{
+    flex:1;
+}
+.signin .col-right{
+    flex:1;
+}
+/*footer attribution*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+

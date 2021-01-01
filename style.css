@@ -1,35 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+/*General Styles*/
+@font-face{
+    font-family: 'ITC Souvenir';
+    src: url('Souvenir-Medium.otf');
+}
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 16px;
+	font-family:  'ITC Souvenir', sans-serif;
+    font-size: 16px;
 }
-header {
-    background-image: url(images/bg-desktop.png);
+
+/*Register Style*/
+.reg-header {
+    width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 }
-.container{
+.reg-header{
+    background-color:#001DA0;
+}
+
+.regcol-left h2{
+    margin-top: 50px;
+    font-family: ITC Souvenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+}
+.regcol-left h2 span{
+    color: #FFE01B;
+}
+.regform{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+    flex-direction:column;
+    padding: 0 30px;
 }
-.logo {
-    cursor: pointer;
-	
+.regfield-group label{
+    display:block;
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 19px;
 }
-.nav-list{
-    list-style: none;
+.regfield-group input{
+    width: 100%;
 }
-.nav-list li{
-    display: inline-block;
-    padding: 0 5px;
+.regfield-group #regsubmit{
+    background-color: #FFE01B;
+    font-family: 'Avenir LT Std';
+    font-style: normal;
+    border: none;
+    padding: 5px;
 }
-
-/*footer attribution*/
-.attribution { font-size: 11px; text-align: center; }
+footer{
+    margin-top: 7rem;
+}
+.attribution { font-size: 11px; text-align: center; bottom: -50%;}
 .attribution a { color: hsl(228, 45%, 44%); }
-
