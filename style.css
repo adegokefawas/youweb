@@ -298,7 +298,9 @@ body {
     text-align: center;
     color: #222222;
 }
-.l-section{}
+.l-section{
+    margin-top: 50px;
+}
 .l-section h2{
     font-family: ITC Souvenir;
     font-style: normal;
@@ -315,6 +317,16 @@ body {
     font-size: 16px;
     line-height: 19px;
     color: #222222;
+}
+.l-section button{
+    background-color: #FFE01B;
+    border: none;
+    padding: 20px;
+    position: relative;
+    left: 15%;
+}
+.l-section img{
+    display: none;
 }
 .hero-section{
     display: flex;
