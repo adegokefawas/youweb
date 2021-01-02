@@ -336,6 +336,7 @@ body {
     background-image: url(images/Shape-m.svg);
 }
 .hero-section .cona h2{
+    margin-top: 30px;
     font-family: ITC Souvenir;
     font-style: normal;
     font-weight: 500;
@@ -365,6 +366,32 @@ body {
 .hero-section .cona .real{
     background: transparent;
     padding: 2px 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.hero-section .conb{
+    margin-top: 65px;
+    margin-bottom: 120px;
+}
+.hero-section .conc h2{
+    font-family: ITC Souvenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.hero-section .conc p{
+    font-family: Avenir LT Std;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: auto;
 }
 footer{
     margin-top: 7rem;
