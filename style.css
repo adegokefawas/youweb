@@ -391,8 +391,35 @@ body {
     position: relative;
     left: 10%;
 }
-.l-section img{
-    display: none;
+
+@media only screen and (min-width: 1200px){
+    .hero-section{
+        padding-top: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .hero-section .cona,
+    .hero-section .conc{
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+    .hero-section .conb{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 4;
+    }
+    .hero-section .conb img{
+        width: 600px;
+        height: 1000px;
+    }
+    
+}
+@media only screen and (max-width: 480px){
+    .l-section img{
+        display: none;
+    }
 }
 footer{
     margin-top: 7rem;
