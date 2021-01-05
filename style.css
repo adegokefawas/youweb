@@ -71,7 +71,7 @@ body {
 }
 .regfield-group input{
     width: 100%;
-    height: 2rem;
+    height: 2.5rem;
 }
 .regfield-group #regsubmit{
     background-color: #FFE01B;
@@ -142,7 +142,7 @@ body {
 }
 .logfield-group input{
     width: 100%;
-    height: 2rem;
+    height: 2.5rem;
 }
 .logfield-group #logsubmit{
     background-color: #FFE01B;
@@ -250,7 +250,7 @@ body {
 }
 .adfield-group input{
     width: 100%;
-    height: 2rem;
+    height: 2.5rem;
 }
 .adfield-group #adsubmit{
     background-color: #FFE01B;
@@ -308,6 +308,13 @@ body {
     border: 1px solid white;
     border-radius: 3px;
 }
+.hero-section .cona .real a{
+    color: white;
+}
+.hero-section .cona .real img{
+    height: 25px;
+    width: 25px;
+}
 .hero-section .conb{
     margin-top: 65px;
     margin-bottom: 120px;
@@ -355,6 +362,19 @@ body {
     text-align: center;
     color: #222222;
 }
+.u-section .row{
+    margin: 30px;
+}
+.u-section #col1{
+    margin-bottom: 30px;
+}
+.u-section #col2{
+    margin-bottom: 30px;
+}
+.u-section #col3{
+    margin-bottom: 30px;
+}
+
 .u-section p{
     font-family: Avenir LT Std;
     font-style: normal;
@@ -423,6 +443,7 @@ body {
 }
 footer{
     margin-top: 7rem;
+    text-align: center;
+    font-size: 11px;
+    bottom: -50%;
 }
-.attribution { font-size: 11px; text-align: center; bottom: -50%;}
-.attribution a { color: hsl(228, 45%, 44%); }
