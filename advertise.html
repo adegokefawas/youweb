@@ -18,6 +18,32 @@
 <body>
   
   <header class="ad-header">
+    <div class="desktop-view">
+      <a href="#"><img src="images/vector.svg" alt=""></a>
+      <nav>
+          <ul>
+              <li><a href="advert.html">Advertise</a></li>
+              <li><a href="login.html">Sign In</a></li>
+              <li><a href="signup.html">Register</a></li>
+          </ul>
+      </nav>
+    </div>
+    <div class="mobile-view">
+    <div class="title">
+      <a href="#"><img src="images/vector.svg" alt=""></a>
+    </div>
+    <nav>
+    <i onclick="openNav()">&#9776</i>
+    <ul id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <li><a href="advert.html">Advertise</a></li>
+            <li><a href="login.html">Sign In</a></li>
+            <li><a href="signup.html">Register</a></li>
+        </div>
+    </ul>
+    </nav>
+  </div>
     <div class="adcol-left">
       <h2><span>You </span>marketing</h2>
     </div>
@@ -86,5 +112,6 @@
   <footer>
     <a href="">Powered by Dawan</a> | <a href="https://kolhab.com">webmaster</a>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>

@@ -19,16 +19,32 @@
 </head>
 <body>
     <header class="index-header">
-      <!--div class="container">
-        <div class="logo"><img src="images/you.png" alt="logo"></div>
-        <nav class="nav">
-          <ul class="nav-list">
-            <li><a href="advertise.html" id="ad">Advertise</a></li>
-            <li><a href="login.html" id="lo"><button>Login</button></a></li>
-            <li><a href="register.html" id="re"><button>Register</button></a></li>
-          </ul>
+      <div class="desktop-view" id="index-view">
+        <a href="#"><img src="images/vector.svg" alt=""></a>
+        <nav>
+            <ul>
+                <li><a href="advert.html">Advertise</a></li>
+                <li><a href="login.html">Sign In</a></li>
+                <li><a href="signup.html">Register</a></li>
+            </ul>
         </nav>
-      </div-->
+      </div>
+      <div class="mobile-view">
+        <div class="title">
+          <a href="#"><img src="images/vector.svg" alt=""></a>
+        </div>
+        <nav>
+        <i onclick="openNav()">&#9776</i>
+        <ul id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <li><a href="advert.html">Advertise</a></li>
+                <li><a href="login.html">Sign In</a></li>
+                <li><a href="signup.html">Register</a></li>
+            </div>
+        </ul>
+        </nav>
+      </div>
       <div class="hero-section">
         <div class="cona"> 
             <h2>Made for Students</h2>
@@ -88,12 +104,13 @@
           <a href="advertise.html#adfor"><button>Connect with the You community</button></a>
         </div>
         <div class="col-sm-12 col-lg-6">
-          <img src="images/marketing2.svg" alt="">
+          <img class="hidden" src="images/marketing2.svg" alt="">
         </div>
       </div>
     </div>
     <footer>
       <a href="">Powered by Dawan</a> | <a href="https://kolhab.com">webmaster</a>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
