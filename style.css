@@ -203,16 +203,13 @@ text-decoration: none;
     background-color: #FFE01B;
     border-radius: 10px;
 }
-#index-view{
-}
 /*Advertise & Index Mobile Nav Style*/
 .mobile-view{
     display:none;
-    position: fixed;
+    position: relative;
     width: 100%;
-    z-index: 20;
-    
     padding: 0.5rem;
+    background-color: #001DA0;;
 }
 .mobile-view nav i {
     font-size: 30px;
@@ -235,7 +232,7 @@ text-decoration: none;
    position: fixed;
    top: 0;
    left: 0;
-   background-color: #001DA0;;
+   background-color: #001DA0;
    overflow-y: hidden;
    z-index: 1;
    -webkit-transition: 0.5s;
@@ -284,7 +281,7 @@ text-decoration: none;
    font-size: 30px;
    font-weight: bold;
 }
-@media screen and (max-width: 940px){
+@media screen and (max-width: 990px){
     
 
     /*MOBILE-VIEW*/
@@ -292,11 +289,7 @@ text-decoration: none;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
     }
-    
-    /*DESKTOP-VIEW*/
-    
     .desktop-view{
         display: none;
     }
@@ -411,6 +404,7 @@ text-decoration: none;
 }
 /*Index Style*/
 .hero-section{
+    margin-top: -8%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -579,7 +573,7 @@ text-decoration: none;
     }
     
 }
-@media only screen and (max-width: 940px){
+@media only screen and (max-width: 480px){
     .l-section .hidden{
         display: none;
     }
