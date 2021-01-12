@@ -172,6 +172,9 @@ body {
 .desktop-view h3{
     font-size: 30px;
 }
+.desktop-view img{
+    margin-left: 20px;
+}
 
 .desktop-view nav ul{
     display: flex;
@@ -191,32 +194,33 @@ text-decoration: none;
 }
 
 .desktop-view nav ul li:nth-child(2){
-    border: 2px solid #fff;
-    padding: 0.8rem 3rem;
-    border-radius: 10px;
-}
-
-.desktop-view nav ul li:nth-child(3){
     border: 2px solid #FFE01B;
     padding: 0.8rem 3rem;
     color: #000;
     background-color: #FFE01B;
     border-radius: 10px;
 }
+
 /*Advertise & Index Mobile Nav Style*/
 .mobile-view{
     display:none;
     position: relative;
     width: 100%;
+    z-index: 20;
     padding: 0.5rem;
     background-color: #001DA0;;
+}
+.mobile-view .title a img{
+    width: 48px;
+    height: 48px;
+    margin-left: 20px;
 }
 .mobile-view nav i {
     font-size: 30px;
     color: #fff;
-    position: fixed;
     top: 2%;
     right: 3%;
+    margin-right: 20px;
 }
 .mobile-view nav ul {
     list-style-type: none;
@@ -238,40 +242,34 @@ text-decoration: none;
    -webkit-transition: 0.5s;
    transition: 0.5s;
    }
-   
+   #re{
+       border: 2px solid #FFE01B;
+       background-color: #FFE01B;
+       border-radius: 10px;
+       padding: 5px 20px;
+   }
    .mobile-view nav .overlay-content {
    position: relative;
    top: 25%;
    margin-top: 5rem;
-   width: 100%;
    }
    
    .mobile-view nav ul li{
             margin-bottom: 2rem;
             font-size: 16px;
             font-weight: bold;
-            margin-right: 4rem;
+            
    }
-   
-   .mobile-view nav ul li:nth-child(2){
-       border: 2px solid #fff;
-       padding: 0.5rem 2.8rem;
-       border-radius: 10px;
-   }
-   
-   .mobile-view nav ul li:nth-child(3){
-       border: 2px solid #FFE01B;
-       padding: 0.5rem 2.8rem;
-       color: #000;
-       background-color: #FFE01B;
-       border-radius: 10px;
-   }
+  
    .mobile-view nav .overlay a {
    padding: 8px;
    text-decoration: none;
    font-size: 16px;
    color: #fff;
    display: block;
+   }
+   #ra{
+       color: #222222;
    }
    
    .mobile-view nav .overlay .closebtn {
@@ -281,7 +279,7 @@ text-decoration: none;
    font-size: 30px;
    font-weight: bold;
 }
-@media screen and (max-width: 990px){
+@media screen and (max-width: 1024px){
     
 
     /*MOBILE-VIEW*/
@@ -290,6 +288,9 @@ text-decoration: none;
         justify-content: space-between;
         align-items: center;
     }
+    
+    /*DESKTOP-VIEW*/
+    
     .desktop-view{
         display: none;
     }
@@ -402,9 +403,10 @@ text-decoration: none;
     line-height: 17px;
     color: #222222;
 }
+
 /*Index Style*/
 .hero-section{
-    margin-top: -8%;
+    margin-top: -12%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -412,11 +414,11 @@ text-decoration: none;
     background-image: url(images/Shape-m.png);
 }
 .hero-section .cona h2{
-    margin-top: 30px;
+    margin-top: 50px;
     font-family: ITC Souvenir;
     font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
+    font-weight: 350;
+    font-size: 24px;
     line-height: 43px;
     text-align: center;
     color: #FFFFFF;
@@ -424,7 +426,7 @@ text-decoration: none;
 .hero-section .cona p{
     font-family: Avenir LT Std;
     font-weight: 100;
-    font-size: 10px;
+    font-size: 16px;
     line-height: 16px;
     text-align: center;
     color: #FFFFFF;
@@ -474,6 +476,8 @@ text-decoration: none;
     line-height: 19px;
     color: #FFFFFF;
     text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
     margin-bottom: 140px;
 }
 .u-section h2{
@@ -548,7 +552,11 @@ text-decoration: none;
     position: relative;
     left: 10%;
 }
-
+@media only screen and (max-width: 600px){
+    .hero-section .cona p br{
+        display:none;
+    }
+}
 @media only screen and (min-width: 1200px){
     .hero-section{
         padding-top: 0px;
@@ -571,9 +579,14 @@ text-decoration: none;
         width: 600px;
         height: 1000px;
     }
-    
+    .hero-section .conc{
+        margin-top: -50px;
+    }
+    .done{
+        margin-top: 30px;
+    }
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
     .l-section .hidden{
         display: none;
     }

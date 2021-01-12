@@ -19,29 +19,26 @@
 </head>
 <body>
     <header class="index-header">
-      <div class="desktop-view">
+      <div class="desktop-view" id="index-view">
         <a href="#"><img src="images/vector.svg" alt=""></a>
         <nav>
             <ul>
-                <li><a href="advertise.html">Advertise</a></li>
-                <li><a href="login.html">Sign In</a></li>
-                <li><a href="register.html">Register</a></li>
+                <li><a href="advertise.php">Advertise</a></li>
+                <li><a href="register.php">Register</a></li>
             </ul>
         </nav>
       </div>
-      
       <div class="mobile-view">
         <div class="title">
           <a href="#"><img src="images/vector.svg" alt=""></a>
         </div>
         <nav>
-        <i onclick="openNav()">&#9776</i>
+        <i onclick="openNav()"><img src="images/menu.svg" alt="logo"></i>
         <ul id="myNav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-content">
-              <li><a href="advertise.html">Advertise</a></li>
-                <li><a href="login.html">Sign In</a></li>
-                <li><a href="register.html">Register</a></li>
+              <li><a href="advertise.php">Advertise</a></li>
+                <li id="re"><a id="ra" href="register.php">Register</a></li>
             </div>
         </ul>
         </nav>
@@ -50,8 +47,7 @@
         <div class="cona"> 
             <h2>Made for Students</h2>
             <p>Join the fastest growing<br> Nigerian student community.</p>
-            <button class="rea"><a href="register.html" >Get Started</a></button><br>
-            <button class="real"><img src="images/tele.svg"><a href="https://t.me/youstudents" target="_blank">Join our Telegram Channel</a></button>
+            <button class="rea"><a href="register.php" >Get Started</a></button><br>
         </div>
         <div class="conb">
           <img src="images/image-bg.svg" alt="logo">
@@ -102,7 +98,7 @@
         <div class="col-sm-12 col-lg-6">
           <h2>Advertise with You<br>(You Marketing)</h1>
           <p>Reach millions of Nigerian Students In a more effective way with the unique you online and offline marketing models.</p>
-          <a href="advertise.html#adfor"><button>Connect with the You community</button></a>
+          <a href="advertise.php#adfor"><button>Connect with the You community</button></a>
         </div>
         <div class="col-sm-12 col-lg-6">
           <img class="hidden" src="images/marketing2.svg" alt="">
@@ -110,7 +106,7 @@
       </div>
     </div>
     <footer>
-      <a href="">Powered by Dawan</a> | <a href="https://kolhab.com">webmaster</a>
+      <a href="">Powered by DAWAN</a> | <a href="https://kolhab.com">webmaster</a>
     </footer>
     <script src="script.js"></script>
 </body>

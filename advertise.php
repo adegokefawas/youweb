@@ -22,9 +22,8 @@
       <a href="#"><img src="images/vector.svg" alt=""></a>
       <nav>
           <ul>
-            <li><a href="advertise.html">Advertise</a></li>
-            <li><a href="login.html">Sign In</a></li>
-            <li><a href="register.html">Register</a></li>
+            <li><a href="advertise.php">Advertise</a></li>
+            <li><a href="register.php">Register</a></li>
           </ul>
       </nav>
     </div>
@@ -33,13 +32,12 @@
       <a href="#"><img src="images/vector.svg" alt=""></a>
     </div>
     <nav>
-    <i onclick="openNav()">&#9776</i>
+    <i onclick="openNav()"><img src="images/menu.svg" alt="logo"></i>
     <ul id="myNav" class="overlay">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="overlay-content">
-          <li><a href="advertise.html">Advertise</a></li>
-                <li><a href="login.html">Sign In</a></li>
-                <li><a href="register.html">Register</a></li>
+          <li><a href="advertise.php">Advertise</a></li>
+                <li id="re"><a id="ra" href="register.php">Register</a></li>
         </div>
     </ul>
     </nav>
@@ -110,7 +108,7 @@
     </div>
   </form>
   <footer>
-    <a href="">Powered by Dawan</a> | <a href="https://kolhab.com">webmaster</a>
+    <a href="">Powered by DAWAN</a> | <a href="https://kolhab.com">webmaster</a>
   </footer>
   <script src="script.js"></script>
 </body>

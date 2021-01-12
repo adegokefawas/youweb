@@ -19,20 +19,19 @@
 
   <header class="reg-header">
     <div class="regcol-left">
-      <h2>Join the <br><span>You </span>are Welcome</h2>
+      <h2>Join the <br><span>You </span>community</h2>
     </div>
     <div class="regcol-right">
       <img src="images/hands.svg">
     </div>
   </header>
-  <form action="#" class="regform">
-    <h2>Already registered? <a href="login.html">Sign in</a></h2>
+  <form action="done.php" method="POST" class="regform">
     <div class="regfield-group">
-      <label for="regfirstName">First Name</label>
+      <label for="regfirstName">Surname</label>
       <input type="text" id="regfirstName" name="regfirstName">
     </div>
     <div class="regfield-group">
-      <label for="reglastName">Last Name</label>
+      <label for="reglastName">Other Name</label>
       <input type="text" id="reglastName" name="reglastName">
     </div>
     <div class="regfield-group">
@@ -49,18 +48,18 @@
     </div>
     <div class="regfield-group">
       <label for="regorigin">State of origin</label>
-      <input type="address" id="regorigin" name="regorigin">
+      <input type="text" id="regorigin" name="regorigin">
     </div>
     <div class="regfield-group">
       <label for="regres">State of Residence</label>
-      <input type="address" id="regres" name="regres">
+      <input type="text" id="regres" name="regres">
     </div>
     <div class="regfield-group">
       <label for="reghome">Home Address</label>
       <input type="text" id="reghome" name="reghome">
     </div>
     <div class="regfield-group">
-      <label for="reghome">Are you an aspirant?</label>
+      <label for="regasp">Are you an aspirant?</label>
       <select id="regasp1" name="regasp">
         <option value="yes">Yes</option>
         <option value="no">No</option>
@@ -71,19 +70,12 @@
       <input type="text" id="regschool" name="regschool">
     </div>
     <div class="regfield-group">
-      <label for="regpassword">Create Password</label>
-      <input type="password" id="regpassword" name="password">
-    </div>
-    <div class="regfield-group">
-      <label for="regpassword">Confirm Password</label>
-      <input type="password" id="regpassword" name="password">
-    </div>
-    <div class="regfield-group">
-      <button id="regsubmit">Register<button>
+      <button type="submit" id="regsubmit" name="register">Register</button>
     </div>
   </form>
   <footer>
-    <a href="">Powered by Dawan</a> | <a href="https://kolhab.com">webmaster</a>
+    <a href="">Powered by DAWAN</a> | <a href="https://kolhab.com">webmaster</a>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>

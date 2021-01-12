@@ -1,0 +1,139 @@
+[08-Jan-2021 11:24:45 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ashistnt_youweb'@'localhost' (using password: YES) in /home/ashistnt/you.com.ng/vaid.php on line 5
+[08-Jan-2021 11:24:45 America/New_York] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/ashistnt/you.com.ng/vaid.php on line 7
+[08-Jan-2021 11:24:45 America/New_York] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/ashistnt/you.com.ng/vaid.php on line 27
+[08-Jan-2021 11:27:47 America/New_York] PHP Parse error:  syntax error, unexpected 'localhost' (T_STRING) in /home/ashistnt/you.com.ng/vaid.php on line 5
+[08-Jan-2021 11:28:19 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ashistnt_youweb'@'localhost' (using password: YES) in /home/ashistnt/you.com.ng/vaid.php on line 5
+[08-Jan-2021 11:28:19 America/New_York] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/ashistnt/you.com.ng/vaid.php on line 7
+[08-Jan-2021 11:28:19 America/New_York] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/ashistnt/you.com.ng/vaid.php on line 27
+[08-Jan-2021 11:29:03 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ashistnt_youweb'@'localhost' (using password: YES) in /home/ashistnt/you.com.ng/vaid.php on line 5
+[08-Jan-2021 11:29:03 America/New_York] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/ashistnt/you.com.ng/vaid.php on line 7
+[08-Jan-2021 11:29:03 America/New_York] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/ashistnt/you.com.ng/vaid.php on line 27
+[08-Jan-2021 11:34:04 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ashistnt_youweb'@'localhost' (using password: YES) in /home/ashistnt/you.com.ng/vaid.php on line 5
+[08-Jan-2021 11:34:04 America/New_York] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/ashistnt/you.com.ng/vaid.php on line 6
+[08-Jan-2021 11:34:04 America/New_York] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/ashistnt/you.com.ng/vaid.php on line 26
+[08-Jan-2021 11:38:29 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ashistnt_youweb'@'localhost' (using password: YES) in /home/ashistnt/you.com.ng/vaid.php on line 5
+[08-Jan-2021 11:38:29 America/New_York] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/ashistnt/you.com.ng/vaid.php on line 6
+[08-Jan-2021 11:38:29 America/New_York] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/ashistnt/you.com.ng/vaid.php on line 26
+[08-Jan-2021 11:38:59 America/New_York] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ashistnt_youweb'@'localhost' (using password: YES) in /home/ashistnt/you.com.ng/vaid.php on line 5
+[08-Jan-2021 11:38:59 America/New_York] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/ashistnt/you.com.ng/vaid.php on line 6
+[08-Jan-2021 11:38:59 America/New_York] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/ashistnt/you.com.ng/vaid.php on line 26
+[08-Jan-2021 11:41:19 America/New_York] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/ashistnt/you.com.ng/vaid.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/ashistnt/you.com.ng/vaid.php on line 26
+[08-Jan-2021 11:42:02 America/New_York] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/ashistnt/you.com.ng/vaid.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/ashistnt/you.com.ng/vaid.php on line 26
+[08-Jan-2021 11:46:03 America/New_York] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/ashistnt/you.com.ng/vaid.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/ashistnt/you.com.ng/vaid.php on line 26
+[08-Jan-2021 11:52:51 America/New_York] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/ashistnt/you.com.ng/vaid.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/ashistnt/you.com.ng/vaid.php on line 26
+[08-Jan-2021 11:53:52 America/New_York] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/ashistnt/you.com.ng/vaid.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/ashistnt/you.com.ng/vaid.php on line 26
+[08-Jan-2021 11:55:02 America/New_York] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/ashistnt/you.com.ng/vaid.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/ashistnt/you.com.ng/vaid.php on line 26
+[08-Jan-2021 11:56:14 America/New_York] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/ashistnt/you.com.ng/vaid.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/ashistnt/you.com.ng/vaid.php on line 26
+[08-Jan-2021 11:58:59 America/New_York] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in /home/ashistnt/you.com.ng/vaid.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/ashistnt/you.com.ng/vaid.php on line 26
+[08-Jan-2021 19:51:05 America/New_York] PHP Notice:  Undefined index: regfirstName in /home/ashistnt/you.com.ng/done.php on line 67
+[08-Jan-2021 19:51:05 America/New_York] PHP Notice:  Undefined index: reglastName in /home/ashistnt/you.com.ng/done.php on line 68
+[08-Jan-2021 19:51:05 America/New_York] PHP Notice:  Undefined index: regdob in /home/ashistnt/you.com.ng/done.php on line 69
+[08-Jan-2021 19:51:05 America/New_York] PHP Notice:  Undefined index: regnumber in /home/ashistnt/you.com.ng/done.php on line 70
+[08-Jan-2021 19:51:05 America/New_York] PHP Notice:  Undefined index: regemail in /home/ashistnt/you.com.ng/done.php on line 71
+[08-Jan-2021 19:51:05 America/New_York] PHP Notice:  Undefined index: regorigin in /home/ashistnt/you.com.ng/done.php on line 72
+[08-Jan-2021 19:51:05 America/New_York] PHP Notice:  Undefined index: regres in /home/ashistnt/you.com.ng/done.php on line 73
+[08-Jan-2021 19:51:05 America/New_York] PHP Notice:  Undefined index: reghome in /home/ashistnt/you.com.ng/done.php on line 74
+[08-Jan-2021 19:51:05 America/New_York] PHP Notice:  Undefined index: regasp in /home/ashistnt/you.com.ng/done.php on line 75
+[08-Jan-2021 19:51:05 America/New_York] PHP Notice:  Undefined index: regschool in /home/ashistnt/you.com.ng/done.php on line 76
+[08-Jan-2021 19:51:05 America/New_York] PHP Notice:  Undefined index: password1 in /home/ashistnt/you.com.ng/done.php on line 77
+[08-Jan-2021 19:51:05 America/New_York] PHP Notice:  Undefined index: password2 in /home/ashistnt/you.com.ng/done.php on line 78
+[08-Jan-2021 20:09:41 America/New_York] PHP Notice:  Undefined variable: email_address in /home/ashistnt/you.com.ng/done.php on line 65
+[08-Jan-2021 20:09:41 America/New_York] PHP Notice:  Undefined variable: message in /home/ashistnt/you.com.ng/done.php on line 65
+[08-Jan-2021 20:15:25 America/New_York] PHP Notice:  Undefined variable: email_address in /home/ashistnt/you.com.ng/done.php on line 65
+[09-Jan-2021 07:24:19 America/New_York] PHP Notice:  Undefined index: regfirstName in /home/ashistnt/you.com.ng/done.php on line 48
+[09-Jan-2021 07:24:19 America/New_York] PHP Notice:  Undefined index: reglastName in /home/ashistnt/you.com.ng/done.php on line 49
+[09-Jan-2021 07:24:19 America/New_York] PHP Notice:  Undefined index: regdob in /home/ashistnt/you.com.ng/done.php on line 50
+[09-Jan-2021 07:24:19 America/New_York] PHP Notice:  Undefined index: regnumber in /home/ashistnt/you.com.ng/done.php on line 51
+[09-Jan-2021 07:24:19 America/New_York] PHP Notice:  Undefined index: regemail in /home/ashistnt/you.com.ng/done.php on line 52
+[09-Jan-2021 07:24:19 America/New_York] PHP Notice:  Undefined index: regorigin in /home/ashistnt/you.com.ng/done.php on line 53
+[09-Jan-2021 07:24:19 America/New_York] PHP Notice:  Undefined index: regres in /home/ashistnt/you.com.ng/done.php on line 54
+[09-Jan-2021 07:24:19 America/New_York] PHP Notice:  Undefined index: reghome in /home/ashistnt/you.com.ng/done.php on line 55
+[09-Jan-2021 07:24:19 America/New_York] PHP Notice:  Undefined index: regasp in /home/ashistnt/you.com.ng/done.php on line 56
+[09-Jan-2021 07:24:19 America/New_York] PHP Notice:  Undefined index: regschool in /home/ashistnt/you.com.ng/done.php on line 57
+[09-Jan-2021 07:24:19 America/New_York] PHP Notice:  Undefined index: password1 in /home/ashistnt/you.com.ng/done.php on line 58
+[09-Jan-2021 07:24:19 America/New_York] PHP Notice:  Undefined index: password2 in /home/ashistnt/you.com.ng/done.php on line 59
+[09-Jan-2021 07:27:00 America/New_York] PHP Notice:  Undefined index: regfirstName in /home/ashistnt/you.com.ng/done.php on line 48
+[09-Jan-2021 07:27:00 America/New_York] PHP Notice:  Undefined index: reglastName in /home/ashistnt/you.com.ng/done.php on line 49
+[09-Jan-2021 07:27:00 America/New_York] PHP Notice:  Undefined index: regdob in /home/ashistnt/you.com.ng/done.php on line 50
+[09-Jan-2021 07:27:00 America/New_York] PHP Notice:  Undefined index: regnumber in /home/ashistnt/you.com.ng/done.php on line 51
+[09-Jan-2021 07:27:00 America/New_York] PHP Notice:  Undefined index: regemail in /home/ashistnt/you.com.ng/done.php on line 52
+[09-Jan-2021 07:27:00 America/New_York] PHP Notice:  Undefined index: regorigin in /home/ashistnt/you.com.ng/done.php on line 53
+[09-Jan-2021 07:27:00 America/New_York] PHP Notice:  Undefined index: regres in /home/ashistnt/you.com.ng/done.php on line 54
+[09-Jan-2021 07:27:00 America/New_York] PHP Notice:  Undefined index: reghome in /home/ashistnt/you.com.ng/done.php on line 55
+[09-Jan-2021 07:27:00 America/New_York] PHP Notice:  Undefined index: regasp in /home/ashistnt/you.com.ng/done.php on line 56
+[09-Jan-2021 07:27:00 America/New_York] PHP Notice:  Undefined index: regschool in /home/ashistnt/you.com.ng/done.php on line 57
+[09-Jan-2021 07:27:00 America/New_York] PHP Notice:  Undefined index: password1 in /home/ashistnt/you.com.ng/done.php on line 58
+[09-Jan-2021 07:27:00 America/New_York] PHP Notice:  Undefined index: password2 in /home/ashistnt/you.com.ng/done.php on line 59
+[09-Jan-2021 07:44:05 America/New_York] PHP Parse error:  syntax error, unexpected '@' in /home/ashistnt/you.com.ng/done.php on line 46
+[09-Jan-2021 11:22:22 America/New_York] PHP Notice:  Undefined index: regfirstName in /home/ashistnt/you.com.ng/done.php on line 48
+[09-Jan-2021 11:22:22 America/New_York] PHP Notice:  Undefined index: reglastName in /home/ashistnt/you.com.ng/done.php on line 49
+[09-Jan-2021 11:22:22 America/New_York] PHP Notice:  Undefined index: regdob in /home/ashistnt/you.com.ng/done.php on line 50
+[09-Jan-2021 11:22:22 America/New_York] PHP Notice:  Undefined index: regnumber in /home/ashistnt/you.com.ng/done.php on line 51
+[09-Jan-2021 11:22:22 America/New_York] PHP Notice:  Undefined index: regemail in /home/ashistnt/you.com.ng/done.php on line 52
+[09-Jan-2021 11:22:22 America/New_York] PHP Notice:  Undefined index: regorigin in /home/ashistnt/you.com.ng/done.php on line 53
+[09-Jan-2021 11:22:22 America/New_York] PHP Notice:  Undefined index: regres in /home/ashistnt/you.com.ng/done.php on line 54
+[09-Jan-2021 11:22:22 America/New_York] PHP Notice:  Undefined index: reghome in /home/ashistnt/you.com.ng/done.php on line 55
+[09-Jan-2021 11:22:22 America/New_York] PHP Notice:  Undefined index: regasp in /home/ashistnt/you.com.ng/done.php on line 56
+[09-Jan-2021 11:22:22 America/New_York] PHP Notice:  Undefined index: regschool in /home/ashistnt/you.com.ng/done.php on line 57
+[09-Jan-2021 11:22:22 America/New_York] PHP Notice:  Undefined index: password1 in /home/ashistnt/you.com.ng/done.php on line 58
+[09-Jan-2021 11:22:22 America/New_York] PHP Notice:  Undefined index: password2 in /home/ashistnt/you.com.ng/done.php on line 59
+[09-Jan-2021 13:34:26 America/New_York] PHP Notice:  Undefined index: regfirstName in /home/ashistnt/you.com.ng/done.php on line 48
+[09-Jan-2021 13:34:26 America/New_York] PHP Notice:  Undefined index: reglastName in /home/ashistnt/you.com.ng/done.php on line 49
+[09-Jan-2021 13:34:26 America/New_York] PHP Notice:  Undefined index: regdob in /home/ashistnt/you.com.ng/done.php on line 50
+[09-Jan-2021 13:34:26 America/New_York] PHP Notice:  Undefined index: regnumber in /home/ashistnt/you.com.ng/done.php on line 51
+[09-Jan-2021 13:34:26 America/New_York] PHP Notice:  Undefined index: regemail in /home/ashistnt/you.com.ng/done.php on line 52
+[09-Jan-2021 13:34:26 America/New_York] PHP Notice:  Undefined index: regorigin in /home/ashistnt/you.com.ng/done.php on line 53
+[09-Jan-2021 13:34:26 America/New_York] PHP Notice:  Undefined index: regres in /home/ashistnt/you.com.ng/done.php on line 54
+[09-Jan-2021 13:34:26 America/New_York] PHP Notice:  Undefined index: reghome in /home/ashistnt/you.com.ng/done.php on line 55
+[09-Jan-2021 13:34:26 America/New_York] PHP Notice:  Undefined index: regasp in /home/ashistnt/you.com.ng/done.php on line 56
+[09-Jan-2021 13:34:26 America/New_York] PHP Notice:  Undefined index: regschool in /home/ashistnt/you.com.ng/done.php on line 57
+[09-Jan-2021 13:34:26 America/New_York] PHP Notice:  Undefined index: password1 in /home/ashistnt/you.com.ng/done.php on line 58
+[09-Jan-2021 13:34:26 America/New_York] PHP Notice:  Undefined index: password2 in /home/ashistnt/you.com.ng/done.php on line 59
+[10-Jan-2021 16:53:59 America/New_York] PHP Notice:  Undefined variable: password1 in /home/ashistnt/you.com.ng/done.php on line 22
+[10-Jan-2021 16:53:59 America/New_York] PHP Notice:  Undefined variable: password2 in /home/ashistnt/you.com.ng/done.php on line 22
+[10-Jan-2021 16:53:59 America/New_York] PHP Notice:  Undefined index: password1 in /home/ashistnt/you.com.ng/done.php on line 52
+[10-Jan-2021 16:53:59 America/New_York] PHP Notice:  Undefined index: password2 in /home/ashistnt/you.com.ng/done.php on line 53
+[10-Jan-2021 17:04:00 America/New_York] PHP Notice:  Undefined index: regfirstName in /home/ashistnt/you.com.ng/done.php on line 42
+[10-Jan-2021 17:04:00 America/New_York] PHP Notice:  Undefined index: reglastName in /home/ashistnt/you.com.ng/done.php on line 43
+[10-Jan-2021 17:04:00 America/New_York] PHP Notice:  Undefined index: regdob in /home/ashistnt/you.com.ng/done.php on line 44
+[10-Jan-2021 17:04:00 America/New_York] PHP Notice:  Undefined index: regnumber in /home/ashistnt/you.com.ng/done.php on line 45
+[10-Jan-2021 17:04:00 America/New_York] PHP Notice:  Undefined index: regemail in /home/ashistnt/you.com.ng/done.php on line 46
+[10-Jan-2021 17:04:00 America/New_York] PHP Notice:  Undefined index: regorigin in /home/ashistnt/you.com.ng/done.php on line 47
+[10-Jan-2021 17:04:00 America/New_York] PHP Notice:  Undefined index: regres in /home/ashistnt/you.com.ng/done.php on line 48
+[10-Jan-2021 17:04:00 America/New_York] PHP Notice:  Undefined index: reghome in /home/ashistnt/you.com.ng/done.php on line 49
+[10-Jan-2021 17:04:00 America/New_York] PHP Notice:  Undefined index: regasp in /home/ashistnt/you.com.ng/done.php on line 50
+[10-Jan-2021 17:04:00 America/New_York] PHP Notice:  Undefined index: regschool in /home/ashistnt/you.com.ng/done.php on line 51
+[10-Jan-2021 17:04:26 America/New_York] PHP Notice:  Undefined index: regfirstName in /home/ashistnt/you.com.ng/done.php on line 42
+[10-Jan-2021 17:04:26 America/New_York] PHP Notice:  Undefined index: reglastName in /home/ashistnt/you.com.ng/done.php on line 43
+[10-Jan-2021 17:04:26 America/New_York] PHP Notice:  Undefined index: regdob in /home/ashistnt/you.com.ng/done.php on line 44
+[10-Jan-2021 17:04:26 America/New_York] PHP Notice:  Undefined index: regnumber in /home/ashistnt/you.com.ng/done.php on line 45
+[10-Jan-2021 17:04:26 America/New_York] PHP Notice:  Undefined index: regemail in /home/ashistnt/you.com.ng/done.php on line 46
+[10-Jan-2021 17:04:26 America/New_York] PHP Notice:  Undefined index: regorigin in /home/ashistnt/you.com.ng/done.php on line 47
+[10-Jan-2021 17:04:26 America/New_York] PHP Notice:  Undefined index: regres in /home/ashistnt/you.com.ng/done.php on line 48
+[10-Jan-2021 17:04:26 America/New_York] PHP Notice:  Undefined index: reghome in /home/ashistnt/you.com.ng/done.php on line 49
+[10-Jan-2021 17:04:26 America/New_York] PHP Notice:  Undefined index: regasp in /home/ashistnt/you.com.ng/done.php on line 50
+[10-Jan-2021 17:04:26 America/New_York] PHP Notice:  Undefined index: regschool in /home/ashistnt/you.com.ng/done.php on line 51
